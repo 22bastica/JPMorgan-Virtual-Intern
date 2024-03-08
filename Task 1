@@ -1,0 +1,24 @@
+Task 1: Analyze a large dataset of fraud in financial payment services
+
+context:
+  - I have been asked to analyze a recently acquired dataset of mobile money transactions from a financial services provider.
+    -the dataset has five types of transactions
+          - CASH-IN is any deposit
+          - CASH-OUT is any withdrawal
+          - DEBIT is a specific type of withdrawal in which the money is sent to the user's bank account
+          - PAYMENT is the purchase of goods or services
+          - TRANSFER involves moving money from one user's account to another's
+  -I will also see two fraud tagging fields. IsFlaggedFraud is fraud detected by their automation system while IsFraud is fraud that has truly occured
+
+For the first module of this project, we will need you to accomplish the following:
+    Set up your system by downloading the necessary files, tools and dependencies.
+    Explore the financial payment services dataset by completing the querying and data visualization exercises in the Additional Resources below
+
+Steps:
+      1. Set up: Before starting I will need to set up my development environment. Needs to have all the required software installed to modify
+the code, as well as getting the code of the project itself on my computer
+      2. Purpose: The ability to query and visualize large datasets helps provide critical information for which areas need additional 
+investment. This is not limited to financial systems but internal computer information systems as well.
+      3. Acceptance Criteria: Using the Pandas library, you learned how to explore and make sense of a dataset. In the process, you wrote queries and 
+then visualized those queries in an easily digestible format that is presentable to management.
+
